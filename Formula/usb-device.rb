@@ -11,8 +11,8 @@ class UsbDevice < Formula
   depends_on "python@3"
 
   resource "pyserial" do
-    url "https://github.com/m-mcgowan/usb-device/archive/refs/tags/v0.1.0.tar.gz"
-    sha256 "3c3d9828a7fb85ce7366e7018ad6f4bbd974ec10bd0e396a6989fcc87e268915"
+    url "https://files.pythonhosted.org/packages/1e/7d/ae3f0a63f41e4d2f6cb66a5b57197850f919f59e558159a4dd3a818f5082/pyserial-3.5.tar.gz"
+    sha256 "3c77e014170dfffbd816e6ffc205e9c2571571f0e8e15e916de5be57c93a6480"
   end
 
   def install
