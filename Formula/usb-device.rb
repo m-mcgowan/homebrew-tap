@@ -1,10 +1,10 @@
 class UsbDevice < Formula
   desc "CLI tool for managing named USB devices on macOS"
   homepage "https://github.com/m-mcgowan/usb-device"
-  url "https://github.com/m-mcgowan/usb-device/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "3c3d9828a7fb85ce7366e7018ad6f4bbd974ec10bd0e396a6989fcc87e268915"
+  url "https://github.com/m-mcgowan/usb-device/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "5c409d5473a1559c0e7fef7ece60866d56c69e278858e7feb8c0aa33cc7fdd9e"
   license "MIT"
-  version "0.1.0"
+  version "0.2.0"
 
   depends_on "uhubctl"
   depends_on "jq"
